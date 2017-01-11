@@ -1,17 +1,12 @@
 package com.inthecheesefactory.lib.fblikeandroid.activity;
 
-import android.accounts.AccountManager;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
-import com.facebook.AccessToken;
-import com.facebook.login.LoginManager;
-import com.inthecheesefactory.lib.fblike.widget.FBLikeView;
+import com.github.be1989.fblike.widget.FBLikeView;
 import com.inthecheesefactory.lib.fblikeandroid.R;
 import com.inthecheesefactory.lib.fblikeandroid.fragment.MainFragment;
 

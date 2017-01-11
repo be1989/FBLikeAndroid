@@ -1,4 +1,4 @@
-package com.inthecheesefactory.lib.fblike.widget;
+package com.github.be1989.fblike.widget;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -23,9 +23,9 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.share.widget.LikeView;
 import com.inthecheesefactory.lib.fblike.R;
-import com.inthecheesefactory.lib.fblike.bus.BusEventCallbackManagerActivityResult;
-import com.inthecheesefactory.lib.fblike.bus.BusEventLoginStatusUpdated;
-import com.inthecheesefactory.lib.fblike.bus.FBLikeBus;
+import com.github.be1989.fblike.bus.BusEventCallbackManagerActivityResult;
+import com.github.be1989.fblike.bus.BusEventLoginStatusUpdated;
+import com.github.be1989.fblike.bus.FBLikeBus;
 import com.squareup.otto.Subscribe;
 
 import java.util.Arrays;

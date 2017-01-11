@@ -1,4 +1,4 @@
-package com.inthecheesefactory.lib.fblike.bus;
+package com.github.be1989.fblike.bus;
 
 /**
  * Created by nuuneoi on 4/25/2015.

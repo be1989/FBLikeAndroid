@@ -9,9 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.facebook.login.LoginManager;
 import com.facebook.share.widget.LikeView;
-import com.inthecheesefactory.lib.fblike.widget.FBLikeView;
+import com.github.be1989.fblike.widget.FBLikeView;
 import com.inthecheesefactory.lib.fblikeandroid.R;
 
 /**

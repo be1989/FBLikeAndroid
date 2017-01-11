@@ -1,4 +1,4 @@
-package com.inthecheesefactory.lib.fblike.bus;
+package com.github.be1989.fblike.bus;
 
 import android.content.Intent;
 
