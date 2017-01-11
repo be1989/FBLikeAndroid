@@ -5,25 +5,36 @@ A wrapper for Facebook Native Like Button (LikeView) on Android
 
 # Version
 
-1.0.1
+1.1.0
 
 # Installation
 
-To use this library in your android project, just simply add the following dependency into your build.gradle
+To use this library in your android project, add the following into build gradle in the root folder
 
-```sh
+```groovy
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+then just add the following dependency into your build.gradle under the app folder
+
+```groovy
 dependencies {
-    compile 'com.inthecheesefactory.thecheeselibrary:fb-like:1.0.1'
+    compile 'com.github.be1989:fb-like:1.1.0'
 }
 ```
 
 # Usage
 
-Full document is available at http://inthecheesefactory.com/blog/how-to-add-facebook-like-button-in-android-app/en
+Full document is available at [JitPack](https://jitpack.io/#be1989/FBLikeAndroid)
 
 First of all, you have to setup the create a Facebook App and setup Facebook SDK for Android in your Android App. Please check [this link](http://inthecheesefactory.com/blog/how-to-add-facebook-like-button-in-android-app/en).
 
-After that, place `com.inthecheesefactory.lib.fblike.widget.FBLikeView` wherever you want to place a Facebook Like Button, for example:
+After that, place `com.github.be1989.FBLikeView` wherever you want to place a Facebook Like Button, for example:
 
 ```xml
 <TextView
@@ -31,7 +42,7 @@ After that, place `com.inthecheesefactory.lib.fblike.widget.FBLikeView` wherever
     android:text="@string/hello_world" android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 
-<com.inthecheesefactory.lib.fblike.widget.FBLikeView
+<com.github.be1989.FBLikeView
     android:id="@+id/fbLikeView"
     androi:text="Login to Like"
     android:layout_width="wrap_content"
@@ -70,6 +81,11 @@ FBLikeView.logout();
 ```
 
 # Change Logs
+### v1.1.0
+
+Repacked the library
+
+Made ready to import via JitPack
 
 ### v1.0.1
 
